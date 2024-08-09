@@ -229,6 +229,9 @@ h2{
   .dashboard {
     padding:150px 0;
   }
+  .dashboard .inner .center > img{
+    width:100%;
+  }
   .dashboard .center .widget{
     display:flex;
     justify-content: center;
@@ -370,13 +373,19 @@ h2{
 }
 @media (max-width:660px){
   .function_summary{
-    margin:50px 0;
+    margin:50px 0 80%;
   }
   .function_summary .inner{
     height: 600px;
   }
   .function_summary h2{
       margin-bottom:100px;
+  }
+  .cricle_tool img:nth-child(1){
+    width:80%;
+  }
+  .cricle_tool img:nth-child(2){
+    width:80%;
   }
   .function_summary .inner .f_title ul{
     width:239px;
@@ -391,7 +400,7 @@ h2{
   }
   
 .f_title ul p{
-  font-size:1.2rem;
+  font-size:1.8rem;
 }
 }
 
@@ -450,7 +459,7 @@ h2{
 .tool li .wrapper > img{
   width:80%;
 }
-.tool li:first-child{
+.tool li:first-child .wrapper{
   text-align:right;
 }
 
@@ -460,6 +469,7 @@ h2{
 .tool li:first-child > img{
   width:100%;
   margin-top:-30px;
+  
 }
 .tool li:nth-child(3){
   text-align:center;
@@ -513,11 +523,11 @@ h2{
 @media (max-width:1240px){
 
   .tool_detail{
-    margin:300px 0;
+    margin:200px 0 100px;
   }
   .tool_detail h2{
     font-size:3.2rem;
-    margin-bottom:50px;
+    margin-bottom:100px;
   }
   .tool_detail{
     padding: 0;
