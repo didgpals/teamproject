@@ -5,9 +5,17 @@ $(function () {
   $(".partner ul li").mouseleave(function () {
     $(this).css({ filter: "grayscale(1)" });
   });
+});
 
-
-
+$(window).scroll(function(){
+  let scrollTop = $(window).scrollTop()
+  if(scrollTop > 750){
+    $("#header").css({position:"fixed", width:"100%" ,background:"#020318"})
+    $(".visual_banner").css({marginTop:100});
+  }else{
+    $("#header").css({position:"absolute",background:"transparent"});
+    $(".visual_banner").css({marginTop:0});
+  }
 });
 let delay = 300;
 let timer = null;

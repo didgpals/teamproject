@@ -1,4 +1,14 @@
 $(document).ready(function () {
+  $(window).scroll(function(){
+    let scrollTop = $(window).scrollTop()
+    if(scrollTop > 750){
+      $("#header").css({position:"fixed", width:"100%" ,background:"#020318"})
+      $(".visual_banner").css({marginTop:100});
+    }else{
+      $("#header").css({position:"absolute",background:"transparent"});
+      $(".visual_banner").css({marginTop:0});
+    }
+  });
   $("#cbx_chkAll").click(function () {
     if ($("#cbx_chkAll").is(":checked")) $("input[name=chk]").prop("checked", true);
     else $("input[name=chk]").prop("checked", false);

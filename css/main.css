@@ -72,7 +72,7 @@ h2{
 .visual_banner{
   position:relative;
   height:calc(100vh - 100px);
-  /* background: url(../img/pluto.png) no-repeat right center/ 55%; */
+  background: url(../img/vb_bg.png) no-repeat center/cover;
 }
 .visual_banner .vb_img img{
   position:absolute;
