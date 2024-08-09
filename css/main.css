@@ -111,12 +111,13 @@ h2{
   content:"";
   display:block;
   position:absolute;
-  top:-5px;
+  top:-8px;
   left:50%;
   transform:translate(-50%);
   width:10px;
   height:10px;
   background: #157FD1;
+  border:1px solid #fff;
   border-radius:50%;
 }
 .visual_banner .vb_txt p:nth-child(2){
@@ -215,7 +216,7 @@ h2{
 }
 .dashboard .widget li:nth-child(2){
   position:absolute;
-  top:30%;
+  top:25%;
   right:10%;
 }
 .dashboard .widget li:nth-child(2) img{
