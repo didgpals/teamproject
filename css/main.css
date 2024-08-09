@@ -646,6 +646,7 @@ h2{
 }
 .partner .inner{
   max-width:1580px;
+  text-align:center;
 }
 .partner h2{
   margin-bottom:180px;
@@ -665,7 +666,19 @@ h2{
   height:60px;
   object-fit:contain;
 }
-
+.partner .more_btn , .close_btn{
+  display:none;
+  margin-top:50px;
+  width:86px;
+  height:40px;
+  padding:5px 20px;
+  background: #020318;
+  font-size:1.8rem;
+  border-radius:5px;
+  cursor:pointer;
+  color:white;
+  border:0;
+}
 @media(max-width:1024px){
   .partner{
     height:100%;
@@ -674,6 +687,12 @@ h2{
   .partner h2{
     margin-bottom:100px;
   }
+  .partner ul li:nth-child(n+11){
+    display:none;
+  }
+  .partner .more_btn{
+    display:inline-block;
+  }
 }
 @media (max-width:600px){
   .partner .inner{
@@ -681,6 +700,12 @@ h2{
   }
   .partner ul li img{
     width:120px;
+  }
+  .partner ul li:nth-child(n+9){
+    display:none;
+  }
+  .partner .more_btn , .close_btn{
+    font-size:1.6rem;
   }
 }
 
