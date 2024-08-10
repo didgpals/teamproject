@@ -34,17 +34,7 @@
   background: #157FD1;
   border-radius:25px;
 }
-#header .ham{
-  display:none;
-}
-
 @media(max-width:1090px){
-#header .util{
-  display:none;
-}
-#header .ham{
-  display:block;
-}
 }
 /* main_global */
 h2{
@@ -55,13 +45,20 @@ h2{
   h2{
     font-size:3.2rem;
   }
+  
+}
+
+@media(max-width:640px){
+
+  #header .util{
+    display:none;
+  }
 }
 @media (max-width:600px){
   h2{
     font-size:1.8rem;
   }
 }
-
 #main{
   display:flex;
   justify-content: center;
@@ -79,6 +76,12 @@ h2{
   text-align:left;
   font-size:4rem;
   margin-bottom:20px;
+}
+@media(max-width:640px){
+  #main > div{
+    padding:50px 30px;
+    margin:0 16px;
+  }
 }
 @media(max-width:500px){
   h2{
