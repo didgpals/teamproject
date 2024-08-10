@@ -21,6 +21,9 @@
   height:100px;
   padding:30px 24px;
 }
+#header h1 img{
+  width:100.65px;
+}
 #header .util{
   display:flex;
   gap:30px;
