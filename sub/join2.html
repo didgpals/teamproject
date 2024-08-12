@@ -29,23 +29,27 @@
         <form>
           <fieldset>
             <h2>회원가입</h2>
-            <h3>이름</h3>
+            <h3>아이디</h3>
             <div class="name">
-              <input type="text" placeholder="이름을 입력해주세요.">
-            </div>
-            <div class="e-mail">
-              <h3>회사명</h3>
-              <input type="email" placeholder="테렌즈">
+              <input type="text" placeholder="아이디를 입력해주세요." id="id"><label for="id">@pluto.co.kr
             </div>
             <div class="password">
-              <h3>직급</h3>
-              <input type="call" placeholder="ex&#41;연구원">
+              <h3>비밀번호</h3>
+              <span>비밀번호는 8~20자 영문, 숫자, 특수문자로 입력하세요.</span>
+              <input type="text" placeholder="비밀번호를 입력해주세요." minlength="8" maxlength="20">
+              <input type="text" placeholder="비밀번호를 확인해주세요." minlength="8" maxlength="20">
+            </div>
+            <div class="e-mail">
+              <h3>이메일</h3>
+              <input type="email" placeholder="이메일을 입력해주세요.">
+              <p class="check_email">이메일 인증</p>
             </div>
             <div class="phone">
-              <h3>부서</h3>
-              <input type="text" placeholder="ex&#41;디자인팀">
+              <h3>휴대폰 번호</h3>
+              <input type="call" placeholder="휴대폰번호를 입력해주세요.">
             </div>
-            <a href="join2.html" class="btn">다음</a>
+
+            <a href="done.html" class="btn">가입하기</a>
           </fieldset>
         </form>
       </div>

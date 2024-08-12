@@ -24,7 +24,6 @@
 }
 #header h1 img{
   width:100.65px;
-
 }
 #header .util{
   display:flex;
@@ -32,7 +31,7 @@
   font-size:18px;
 }
 #header .util li:nth-child(1){
-  padding:10px 15px;
+  padding:6px 13px;
 }
 #header .util li:nth-child(2){
   padding:6px 13px;
@@ -229,7 +228,7 @@ h2{
 
 .dashboard .widget li:nth-child(3){
   position:absolute;
-  bottom:-30px;
+  bottom:100px;
   left:10%;
 }
 .dashboard .widget li:nth-child(3) img{
@@ -237,6 +236,7 @@ h2{
 }
 .dashboard .widget li:nth-child(4){
   position:absolute;
+  height:300px;
   bottom:-20px;
   right:10%;
 }
