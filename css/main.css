@@ -74,7 +74,7 @@ h2{
 
 .visual_banner{
   position:relative;
-  height:calc(100vh - 100px);
+  height:800px;
   background: url(../img/vb_bg.png) no-repeat center/cover;
 }
 .visual_banner .vb_img img{
