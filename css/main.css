@@ -74,7 +74,7 @@ h2{
 
 .visual_banner{
   position:relative;
-  height:800px;
+  height:700px;
   background: url(../img/vb_bg.png) no-repeat center/cover;
 }
 .visual_banner .vb_img img{
@@ -210,8 +210,8 @@ h2{
 }
 .dashboard .widget li:nth-child(1){
   position:absolute;
-  top:150px;
-  left:120px;
+  top:20%;
+  left:2%;
 }
 
 .dashboard .widget li:nth-child(1) img{
@@ -220,7 +220,7 @@ h2{
 .dashboard .widget li:nth-child(2){
   position:absolute;
   top:25%;
-  right:10%;
+  right:5%;
 }
 .dashboard .widget li:nth-child(2) img{
   width:50%;
@@ -228,7 +228,7 @@ h2{
 
 .dashboard .widget li:nth-child(3){
   position:absolute;
-  bottom:100px;
+  bottom:30px;
   left:10%;
 }
 .dashboard .widget li:nth-child(3) img{
@@ -238,7 +238,7 @@ h2{
   position:absolute;
   height:300px;
   bottom:-20px;
-  right:10%;
+  right:5%;
 }
 .dashboard .widget li:nth-child(4) img{
   width:80%;
