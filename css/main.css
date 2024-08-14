@@ -210,8 +210,8 @@ h2{
 }
 .dashboard .widget li:nth-child(1){
   position:absolute;
-  top:20%;
-  left:2%;
+  top:100px;
+  left:50px;
 }
 
 .dashboard .widget li:nth-child(1) img{
@@ -229,6 +229,7 @@ h2{
 .dashboard .widget li:nth-child(3){
   position:absolute;
   bottom:30px;
+  height:200px;
   left:10%;
 }
 .dashboard .widget li:nth-child(3) img{
@@ -275,9 +276,11 @@ h2{
   }
   
   .dashboard .widget li:nth-child(3){
-    height:auto;}
+    height:auto;
+  }
   .dashboard .widget li:nth-child(4){
-    height:auto;}
+    height:auto;
+  }
 
 }
 @media(max-width:760px){
