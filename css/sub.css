@@ -337,3 +337,18 @@ padding:10px 0;
   text-align:center;
   line-height:45px;
 }
+@media(max-width:550px){
+  #main .done h2{
+    font-size:2rem;
+  }
+  #main .done p{
+    font-size:1.4rem;
+    margin-bottom:30px;
+  }
+  .done a{
+    width:160px;
+    height:35px;
+    font-size:1.4rem;
+    line-height:35px;
+  }
+}
