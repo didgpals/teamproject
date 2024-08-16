@@ -40,14 +40,14 @@ $(window).on("resize", function () {
       $(".partner ul li").show();
     } else if ($(window).innerWidth() > 600 || $(window).innerWidth() < 1024) {
       $(".partner ul li").css({ filter: "grayscale(0)" });
-      $(".partner ul li:nth-child(n+11)").hide();
+      $(".partner ul li:nth-child(n+10)").hide();
       showMore();
       $(".more_btn").click(function () {
-        $(".partner ul li:nth-child(n+11)").show();
+        $(".partner ul li:nth-child(n+10)").show();
         showClose();
       });
       $(".close_btn").click(function () {
-        $(".partner ul li:nth-child(n+11)").hide();
+        $(".partner ul li:nth-child(n+10)").hide();
         showMore();
       })
     } else if ($(window).innerWidth() <= 600) {
