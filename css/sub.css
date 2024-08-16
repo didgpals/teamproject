@@ -352,3 +352,8 @@ padding:10px 0;
     line-height:35px;
   }
 }
+@media(max-width:390px){
+  .done br{
+    display:none;
+  }
+}
