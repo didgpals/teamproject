@@ -700,7 +700,7 @@ h2{
   .partner h2{
     margin-bottom:100px;
   }
-  .partner ul li:nth-child(n+11){
+  .partner ul li:nth-child(n+10){
     display:none;
   }
   .partner .more_btn{
